@@ -10,7 +10,7 @@ jtb-engine-landing/
 ├── assets/
 │   ├── favicon.svg          ← JTB mark, swap if you have a brand asset
 │   └── showreel-poster.svg  ← placeholder until you supply a real poster
-├── public/
+├── media/
 │   └── showreel.mp4         ← DROP YOUR VIDEO HERE (not yet present)
 └── README.md
 ```
@@ -51,7 +51,7 @@ Then in Vercel project settings → Domains, add `engine.jtbstudios.com.au` (or 
 
 These show up as visible amber TODO chips in the page so they don't get missed:
 
-- [ ] **Showreel video** — drop a 60-second `.mp4` at `/public/showreel.mp4`. Optional: real poster image at `/assets/showreel-poster.jpg` (then update the `poster=` attribute in `index.html` from `.svg` to `.jpg`)
+- [ ] **Showreel video** — drop a 60-second `.mp4` at `/media/showreel.mp4`. Optional: real poster image at `/assets/showreel-poster.jpg` (then update the `poster=` attribute in `index.html` from `.svg` to `.jpg`)
 - [ ] **Client logos** — replace the text wordmarks (`Coopers`, `AGL`, `Driscoll's`, `St Kilda FBC`) with SVG files. Drop SVGs into `/assets/logos/` and replace `<span class="logo-wordmark">…</span>` with `<img src="assets/logos/coopers.svg" alt="Coopers" class="client-logo" />`. Add corresponding CSS (height ~28px, opacity 0.7 → 1 on hover) to `.client-logo`
 - [ ] **Stat numbers** — replace `[XX]` with real values in three places in `index.html`. The `data-count="0"` attribute on each `.stat__number` controls the count-up animation: set it to the final integer to enable the animation (e.g. `data-count="312"` for `312%`)
 - [ ] **Stat client/industry** — replace each `<span>Client</span><span>Industry</span>` pair with the real attribution
