@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16161A"/>
+      <stop offset="100%" stop-color="#0B0B0C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#FF5B1F" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF5B1F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="rgba(242,240,235,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <text x="80" y="120" font-family="'JetBrains Mono', monospace" font-size="14" letter-spacing="2" fill="#9A9A9F">01 / IN MOTION</text>
+  <text x="80" y="780" font-family="'Inter', sans-serif" font-size="14" letter-spacing="2" fill="#5A5A60">JTB / SHOWREEL POSTER · REPLACE AT /assets/showreel-poster.jpg</text>
+  <g transform="translate(800,450)">
+    <circle r="60" fill="rgba(11,11,12,0.4)" stroke="#F2F0EB" stroke-width="1"/>
+    <polygon points="-12,-18 -12,18 22,0" fill="#F2F0EB"/>
+  </g>
+</svg>

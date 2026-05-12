@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0B0B0C" />
+  <title>JTB — Engineered Web. Built to Scale.</title>
+  <meta name="description" content="JTB engineers websites, platforms, and portals where UX, design, and development work as one system, built to drive behaviour at enterprise scale." />
+
+  <!-- Open Graph / social -->
+  <meta property="og:title" content="JTB — Engineered Web. Built to Scale." />
+  <meta property="og:description" content="Most websites are interfaces. Ours are engines. Custom websites, platform portals, and scalable CMS engineered for performance at scale." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preload" href="assets/Fonts/NHaasGroteskDSPro-55Rg.otf" as="font" type="font/otf" crossorigin />
+  <link rel="preload" href="assets/Fonts/NHaasGroteskDSPro-65Md.otf" as="font" type="font/otf" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#contact">Skip to contact</a>
+
+  <!-- Sticky chapter indicator (desktop only) -->
+  <nav class="chapter-rail" aria-label="Page sections">
+    <ol>
+      <li><a href="#in-motion" data-chapter="01">In motion</a></li>
+      <li><a href="#difference" data-chapter="02">The difference</a></li>
+      <li><a href="#numbers" data-chapter="03">The numbers</a></li>
+      <li><a href="#method" data-chapter="04">The method</a></li>
+      <li><a href="#builds" data-chapter="05">The builds</a></li>
+      <li><a href="#fit" data-chapter="06">Fit check</a></li>
+      <li><a href="#contact" data-chapter="07">Build with JTB</a></li>
+    </ol>
+  </nav>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <a class="topbar__brand" href="#top" aria-label="JTB Studios">
+      <span class="brand-mark">JTB</span>
+      <span class="brand-divider" aria-hidden="true"></span>
+      <span class="brand-tag">Engineered Web</span>
+    </a>
+    <a class="topbar__cta" href="#contact">Build Your Engine <span aria-hidden="true">→</span></a>
+  </header>
+
+  <main id="top">
+
+    <!-- ============== HERO ============== -->
+    <section class="hero" data-reveal-root>
+      <div class="hero__inner">
+        <p class="eyebrow" data-reveal>
+          <span class="eyebrow__dot" aria-hidden="true"></span>
+          Engineering, not decoration
+        </p>
+
+        <h1 class="hero__h1" data-reveal>
+          Most websites are interfaces.
+          <span class="hero__h1-accent">Ours are enterprise engines.</span>
+        </h1>
+
+        <p class="hero__sub" data-reveal>
+          There's a difference between looking good and cultivating performance, at scale. JTB engineers websites, platforms, and portals where UX, design, and development work as one system, built to drive behaviour, not just display it.
+        </p>
+
+        <div class="hero__ctas" data-reveal>
+          <a href="#contact" class="btn btn--primary">
+            <span>Build Your Engine</span>
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#in-motion" class="btn btn--ghost">
+            <span class="btn__play" aria-hidden="true"></span>
+            <span>Watch 60-second showreel</span>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__noise" aria-hidden="true"></div>
+    </section>
+
+    <!-- ============== TRUST STRIP (full-width logo bar) ============== -->
+    <section class="trust-strip" aria-label="Featured clients">
+      <p class="trust-strip__label" data-reveal>Join the list of enterprises we've built decision-driving engines for</p>
+      <div class="trust-strip__logos" role="list" data-reveal>
+        <img class="client-logo" src="assets/logos/coopers.png" alt="Coopers" role="listitem" loading="lazy" />
+        <img class="client-logo" src="assets/logos/agl.png" alt="AGL" role="listitem" loading="lazy" />
+        <img class="client-logo" src="assets/logos/driscolls.png" alt="Driscoll's" role="listitem" loading="lazy" />
+        <img class="client-logo" src="assets/logos/monash.svg" alt="Monash University" role="listitem" loading="lazy" />
+        <img class="client-logo" src="assets/logos/westbourne.jpeg" alt="Westbourne Grammar" role="listitem" loading="lazy" />
+        <img class="client-logo" src="assets/logos/porsche.png" alt="Porsche" role="listitem" loading="lazy" />
+        <img class="client-logo" src="assets/logos/deep-rising.png" alt="Deep Rising" role="listitem" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- ============== 01 / IN MOTION ============== -->
+    <section class="section section--motion" id="in-motion">
+      <div class="section__head">
+        <span class="section__label" data-reveal>01 / In motion</span>
+        <h2 class="section__h2" data-reveal>The work, not the words.</h2>
+        <p class="section__sub" data-reveal>Sixty seconds of what we've built for the brands scaling alongside us.</p>
+      </div>
+
+      <div class="showreel" data-reveal>
+        <div class="showreel__frame">
+          <video
+            class="showreel__video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+            poster="assets/showreel-poster.svg"
+          >
+            <source src="public/showreel.mp4" type="video/mp4" />
+            Your browser doesn't support embedded video.
+          </video>
+          <button class="showreel__unmute" type="button" aria-label="Unmute video">
+            <span class="showreel__unmute-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>
+            </span>
+            <span class="showreel__unmute-label">Tap for sound</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============== 02 / THE DIFFERENCE ============== -->
+    <section class="section section--difference" id="difference">
+      <div class="section__head">
+        <span class="section__label" data-reveal>02 / The difference</span>
+        <h2 class="section__h2" data-reveal>A website can keep your presence. <span class="muted">An enterprise engine drives your business growth.</span></h2>
+        <p class="section__sub" data-reveal>Most agencies host interfaces, pages designed to be viewed. We host decision-influencing engines, systems designed to perform. Here's how that shows up.</p>
+      </div>
+
+      <div class="comparison" data-reveal>
+        <div class="comparison__head">
+          <div class="comparison__col-label comparison__col-label--interface">Interface</div>
+          <div class="comparison__col-label comparison__col-label--engine">Engine</div>
+        </div>
+        <ul class="comparison__rows">
+          <li class="comparison__row">
+            <span class="comparison__cell comparison__cell--interface">Built to be looked at</span>
+            <span class="comparison__cell comparison__cell--engine">Built to be used</span>
+          </li>
+          <li class="comparison__row">
+            <span class="comparison__cell comparison__cell--interface">Presence</span>
+            <span class="comparison__cell comparison__cell--engine">Performance</span>
+          </li>
+          <li class="comparison__row">
+            <span class="comparison__cell comparison__cell--interface">Optimised for launch day</span>
+            <span class="comparison__cell comparison__cell--engine">Optimised for year three</span>
+          </li>
+          <li class="comparison__row">
+            <span class="comparison__cell comparison__cell--interface">Breaks under complexity</span>
+            <span class="comparison__cell comparison__cell--engine">Designed for complexity</span>
+          </li>
+          <li class="comparison__row">
+            <span class="comparison__cell comparison__cell--interface">Decorative design</span>
+            <span class="comparison__cell comparison__cell--engine">Behavioural design</span>
+          </li>
+          <li class="comparison__row">
+            <span class="comparison__cell comparison__cell--interface">Templates and themes</span>
+            <span class="comparison__cell comparison__cell--engine">Custom architecture</span>
+          </li>
+          <li class="comparison__row">
+            <span class="comparison__cell comparison__cell--interface">You outgrow it</span>
+            <span class="comparison__cell comparison__cell--engine">It scales with you</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== 03 / THE NUMBERS ============== -->
+    <section class="section section--numbers" id="numbers">
+      <div class="section__head">
+        <span class="section__label" data-reveal>03 / The numbers</span>
+        <h2 class="section__h2" data-reveal>Engines are measured in outcomes.</h2>
+        <p class="section__sub" data-reveal>Real metrics from the builds in the showreel above.</p>
+      </div>
+
+      <div class="stats" data-reveal>
+        <article class="stat">
+          <div class="stat__value">
+            <span class="stat__number" data-count="47">0</span>
+            <span class="stat__symbol">%</span>
+          </div>
+          <p class="stat__label">Increase in online engagement</p>
+          <p class="stat__meta"><span>Coopers</span><span class="stat__sep">/</span><span>Beverages</span></p>
+        </article>
+        <article class="stat">
+          <div class="stat__value">
+            <span class="stat__number stat__number--text">Millions</span>
+          </div>
+          <p class="stat__label">Petitions signed through the platform</p>
+          <p class="stat__meta"><span>Deep Rising</span><span class="stat__sep">/</span><span>Advocacy</span></p>
+        </article>
+        <article class="stat">
+          <div class="stat__value">
+            <span class="stat__number" data-count="300">0</span>
+            <span class="stat__symbol">%+</span>
+          </div>
+          <p class="stat__label">Time on site increase</p>
+          <p class="stat__meta"><span>Driscoll's</span><span class="stat__sep">/</span><span>Agriculture</span></p>
+        </article>
+      </div>
+
+      <p class="stats__footer">Stats from production deployments.</p>
+    </section>
+
+    <!-- ============== 04 / THE METHOD ============== -->
+    <section class="section section--method" id="method">
+      <div class="section__head">
+        <span class="section__label" data-reveal>04 / The method</span>
+        <h2 class="section__h2" data-reveal>Three layers. <span class="muted">One engine.</span></h2>
+        <p class="section__sub" data-reveal>We don't separate UX, design, and development into handoffs. They're engineered as one continuous system, which is why our builds hold up when yours scales.</p>
+      </div>
+
+      <ol class="layers">
+        <li class="layer" data-reveal>
+          <div class="layer__index">
+            <span class="layer__num">01</span>
+            <span class="layer__line" aria-hidden="true"></span>
+          </div>
+          <div class="layer__body">
+            <h3 class="layer__title">UX Architecture</h3>
+            <p class="layer__copy">We map the behaviour first. Every click, flow, and decision point is structured to remove friction and drive the action that matters.</p>
+          </div>
+        </li>
+        <li class="layer" data-reveal>
+          <div class="layer__index">
+            <span class="layer__num">02</span>
+            <span class="layer__line" aria-hidden="true"></span>
+          </div>
+          <div class="layer__body">
+            <h3 class="layer__title">Visual System</h3>
+            <p class="layer__copy">Design is the surface, not the strategy. We build identity systems that scale across products, channels, and teams, so your brand stays sharp at 10x the size.</p>
+          </div>
+        </li>
+        <li class="layer" data-reveal>
+          <div class="layer__index">
+            <span class="layer__num">03</span>
+            <span class="layer__line" aria-hidden="true"></span>
+          </div>
+          <div class="layer__body">
+            <h3 class="layer__title">Engineered Build</h3>
+            <p class="layer__copy">Custom code, scalable CMS, integrated platforms. Built clean so your team can ship fast, and built right so it doesn't break when traffic, products, or markets multiply.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============== 05 / THE BUILDS ============== -->
+    <section class="section section--builds" id="builds">
+      <div class="section__head">
+        <span class="section__label" data-reveal>05 / The builds</span>
+        <h2 class="section__h2" data-reveal>Custom websites. Platform portals. Scalable CMS.</h2>
+        <p class="section__sub" data-reveal>Every build is engineered to do more than exist.</p>
+      </div>
+
+      <div class="builds">
+        <article class="build-card" data-reveal>
+          <header class="build-card__head">
+            <span class="build-card__index">A</span>
+            <h3 class="build-card__title">Custom Websites</h3>
+          </header>
+          <p class="build-card__copy">Bespoke sites for brands that have outgrown templates. Built from the architecture up, designed to convert, engineered to last.</p>
+          <ul class="build-card__tags">
+            <li>Architecture-led</li><li>Conversion-focused</li><li>Bespoke</li>
+          </ul>
+        </article>
+
+        <article class="build-card" data-reveal>
+          <header class="build-card__head">
+            <span class="build-card__index">B</span>
+            <h3 class="build-card__title">Platform Portals</h3>
+          </header>
+          <p class="build-card__copy">Logged-in environments where your customers, partners, or team get work done. Integrated with your stack, built around your flows.</p>
+          <ul class="build-card__tags">
+            <li>Authenticated</li><li>Stack-integrated</li><li>Workflow-led</li>
+          </ul>
+        </article>
+
+        <article class="build-card" data-reveal>
+          <header class="build-card__head">
+            <span class="build-card__index">C</span>
+            <h3 class="build-card__title">Scalable CMS</h3>
+          </header>
+          <p class="build-card__copy">Content systems your team can actually use, without breaking the build, the brand, or the budget every time you ship.</p>
+          <ul class="build-card__tags">
+            <li>Editor-friendly</li><li>Brand-safe</li><li>Ship-fast</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============== 06 / FIT CHECK ============== -->
+    <section class="section section--fit" id="fit">
+      <div class="section__head">
+        <span class="section__label" data-reveal>06 / Fit check</span>
+        <h2 class="section__h2" data-reveal>Built for the businesses past the brochure stage.</h2>
+        <p class="section__sub" data-reveal>JTB is built for scaling teams, not first websites. If you're scaling a real product, growing a real audience, or running a platform that needs to perform under load, you're who we build for.</p>
+      </div>
+
+      <div class="fit" data-reveal>
+        <p class="fit__heading">You'll fit if</p>
+        <ul class="fit__list">
+          <li>
+            <span class="fit__bullet" aria-hidden="true">+</span>
+            <span>You've outgrown your current site or stack</span>
+          </li>
+          <li>
+            <span class="fit__bullet" aria-hidden="true">+</span>
+            <span>You need design and engineering that talk to each other</span>
+          </li>
+          <li>
+            <span class="fit__bullet" aria-hidden="true">+</span>
+            <span>You're building for the next three years, not the next quarter</span>
+          </li>
+          <li>
+            <span class="fit__bullet" aria-hidden="true">+</span>
+            <span>Performance, scalability, and behaviour matter more than templates</span>
+          </li>
+          <li>
+            <span class="fit__bullet" aria-hidden="true">+</span>
+            <span>Custom UX &amp; UI built to influence human decision is central</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== 07 / CONTACT ============== -->
+    <section class="section section--contact" id="contact">
+      <div class="contact">
+        <div class="contact__copy">
+          <span class="section__label" data-reveal>07 / Build with JTB</span>
+          <h2 class="contact__h2" data-reveal>
+            Stop maintaining a website.
+            <span class="contact__h2-accent">Start running an enterprise engine.</span>
+          </h2>
+          <p class="contact__sub" data-reveal>Book a 30-minute build consultation. We'll look at where you are, where you're scaling to, and what your engine needs to look like to get you there.</p>
+          <p class="contact__pitch" data-reveal>No pitch deck. No pressure. Just a conversation about what you're building. Either way, you'll leave with valuable input.</p>
+
+          <ul class="contact__assurances" data-reveal>
+            <li><span class="dot" aria-hidden="true"></span>30-minute consultation</li>
+            <li><span class="dot" aria-hidden="true"></span>No-obligation</li>
+            <li><span class="dot" aria-hidden="true"></span>Direct with the engine team</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate data-reveal>
+          <div class="contact-form__head">
+            <span class="contact-form__label">Start the conversation</span>
+            <span class="contact-form__index">/01</span>
+          </div>
+
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required />
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" autocomplete="organization" required />
+            </div>
+            <div class="field">
+              <label for="email">Work email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="project-type">Build type</label>
+            <div class="select-wrap">
+              <select id="project-type" name="project-type" required>
+                <option value="" disabled selected>Select one</option>
+                <option value="custom-website">Custom Website</option>
+                <option value="platform-portal">Platform Portal</option>
+                <option value="scalable-cms">Scalable CMS</option>
+                <option value="not-sure">Not sure yet</option>
+              </select>
+              <span class="select-wrap__chev" aria-hidden="true">▾</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="brief">What you're scaling</label>
+            <textarea id="brief" name="brief" rows="4" placeholder="A few sentences on the product, the platform, or the bottleneck you're hitting."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--lg btn--full">
+            <span>Build Your Engine With JTB</span>
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </button>
+
+          <p class="form__note">Australian built &middot; Enterprise-grade &middot; Engineered to scale</p>
+          <p class="form__success" hidden>Thanks, we'll be in touch within one business day.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <p class="footer__logo">JTB</p>
+        <p class="footer__tagline">Engineered Web. Built to Scale.</p>
+      </div>
+      <div class="footer__links">
+        <a class="footer__link" href="https://www.jtbstudios.com.au/" target="_blank" rel="noopener">
+          jtbstudios.com.au <span aria-hidden="true">↗</span>
+        </a>
+        <a class="footer__link" href="#contact">
+          Start a build <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+    <div class="footer__base">
+      <p>Australian built &middot; Enterprise-grade &middot; Engineered to scale</p>
+      <p>© <span id="year">2026</span> JTB Studios. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
